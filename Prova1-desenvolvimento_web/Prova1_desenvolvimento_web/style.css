@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+header ul  li{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul  li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.section-apresentacao {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    gap: 20px;
+    padding: 20px 100px;
+}
+
+.container-imagem {
+    margin-right: 20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 250px;
+    border-radius: 50%;
+}
+
+.section-apresentacao-content {
+    text-align: left;
+}
+
+.nome {
+    margin-bottom: 20px;
+}
+
+.nome p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.informacoes-contato p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+
+.section-Formacao,
+.section-experiencia,
+.section-cursos {
+    background-color: #f9f9f9;
+    padding: 40px 100px;
+
+}
+
+.experiencia-content 
+.cursos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+.title {
+    border-radius: 5px;
+    margin-right: 20px;
+    width: fit-content;
+}
+
+.title h3 {
+    font-size: 20px;
+    margin: 0;
+    border-bottom: 2px solid #000; /* Adiciona uma borda branca na parte inferior do título */
+    padding-bottom: 5px; /* Espaçamento entre o título e a borda inferior */
+}
+
+.content {
+    text-align: left;
+}
+
+.content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+ul {
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Adicionando espaçamento entre as seções */
+.section-experiencia,
+.section-cursos {
+    margin-top: 40px;
+}
+
+
+footer {
+    display: flex;
+    gap: 24px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    display: inline-block;
+    margin-right: 5px;
+}
